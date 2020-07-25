@@ -1,7 +1,7 @@
 # Becode-First-Part
 
 
-![The Gif]("/assets/gif.gif")
+![The Gif](/assets/gif.gif)
 
 
 
@@ -37,4 +37,4 @@ Je m'apelle Robby Delvaux et je suis apprenant a Becode Promo Woods3.21
 
 
 
-![Becode]("assets/becode.png")
+![Becode](assets/becode.png)
