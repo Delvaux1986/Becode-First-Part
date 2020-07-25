@@ -9,7 +9,7 @@ Exercice sur le Markdown
 
 #### Quand ai-je travaillé dessus :
 
-Je commence le lundi 15 juin 2020 a 15h45 .
+
 
 #### Ou j'en suis dans le projet :
 
