@@ -1,0 +1,66 @@
+@-webkit-keyframes anim {
+  from {
+    background-color: black;
+    color: white;
+  }
+  to {
+    background-color: white;
+    color: black;
+  }
+}
+
+@keyframes anim {
+  from {
+    background-color: black;
+    color: white;
+  }
+  to {
+    background-color: white;
+    color: black;
+  }
+}
+
+@-webkit-keyframes scaleUp {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+@keyframes scaleUp {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+
+@-webkit-keyframes moveRight {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(500px);
+    transform: translateX(500px);
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(500px);
+    transform: translateX(500px);
+  }
+}
+/*# sourceMappingURL=animation.css.map */

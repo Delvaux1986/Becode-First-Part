@@ -1,0 +1,99 @@
+body{
+    background: -webkit-linear-gradient(90deg, rgb(6, 19, 31), rgb(9, 66, 122));
+    background: linear-gradient(90deg, rgb(6, 19, 31), rgb(9, 66, 122));
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    }
+header{
+    display:block;
+    margin:0px auto;
+    text-align: center;
+    color:#7CFC00;
+}
+table{
+    display:block;
+    margin:0 auto;
+    max-width: 40%;
+}
+th{
+    width:250px;
+}
+h4{
+    color:#7CFC00;
+    font-style: italic;
+    text-decoration: underline;
+}
+img{
+    display:block;
+    margin:10px auto;
+}
+a{
+    color:#7CFC00; 
+}
+a:hover{
+    background-color: rgb(9, 66, 122);
+}
+.rapel{
+    color:red;
+}
+p{
+    text-indent: -1em;
+    font-size: 16px;
+    color:#7CFC00;
+    max-width: 480px;
+    margin:15px auto;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+.emphase{
+    display:block;
+    width:20%;
+    margin:0px auto;
+    border-left:3px solid green;
+    background-color: RGBa(192,192,192,0.4);
+    text-align: justify;
+}
+.rythme{
+    display:block;
+    width:20%;
+    margin:0px auto;
+    border-left:3px solid green;
+    background-color: RGBa(192,192,192,0.4);
+    text-align: justify;
+}
+.guillemets{
+    display:block;
+    width:20%;
+    margin:0px auto;
+    border-left:3px solid green;
+    background-color: RGBa(192,192,192,0.4);
+    text-align: justify;
+}
+.echelle{
+    display:block;
+    width:20%;
+    margin:0px auto;
+    border-left:3px solid green;
+    background-color: RGBa(192,192,192,0.4);
+    text-align: justify;
+}
+.interlignage{
+    display:block;
+    width:20%;
+    margin:0px auto;
+    border-left:3px solid green;
+    background-color: RGBa(192,192,192,0.4);
+    text-align: justify;
+}
+.justification{
+    display:block;
+    width:20%;
+    margin:0px auto;
+    border-left:3px solid green;
+    background-color: RGBa(192,192,192,0.4);
+    text-align: justify;
+}
+.titre{
+    margin:0 auto;
+    
+}

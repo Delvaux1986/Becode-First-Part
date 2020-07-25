@@ -1,0 +1,98 @@
+    body{
+        background-image: url(/img/bg.jpg) ;
+        background-repeat: no-repeat;
+        background-position-x:right ;
+        background-position-y: bottom;
+        background-size: cover;
+        max-width: 90%;
+        max-height: 90%;
+        margin: 5% auto;
+        background: -webkit-linear-gradient(-4deg, rgb(115, 117, 116), rgb(28, 29, 30));
+        background: linear-gradient(-4deg, rgb(115, 117, 116), rgb(28, 29, 30));
+        }
+    header{
+        background-color: chartreuse;
+        display:block;
+        margin:0px auto;
+        width:70%;
+    }
+    h1{
+        text-align: center;
+        text-decoration: underline;
+        color : RGB(153,50,204); 
+        margin: 0px auto;
+        font-size: 20px;
+        max-width: 20%;
+    }
+    h2{
+        text-decoration: underline;
+        color : RGB(153,50,204);
+        text-align: center;
+        margin: 0px auto;
+        max-width: 50%;
+        font-size: 20px;
+    }
+    ol{
+        display:block;
+        max-width: 30%;
+        margin: 0 auto;
+        color : RGB(0,255,255);
+        line-height: 2em;
+
+    }
+    img{
+        display:block;
+        margin:0px auto;
+        max-width: 30%;
+    }
+    p{
+        text-align: center;
+        padding-left:auto;
+        max-width: 50%;
+        margin:0 auto;
+        font-size: 18px;
+        font-family:'Times New Roman', Times, serif;
+        color : RGB(0,255,255); 
+        line-height: 2em;
+    }
+    table{
+        max-width: 40%;
+        margin:0 auto;
+    }
+    .ol1{
+        background-image: url(img/bien.jpg);
+    }
+    .villageois{
+        border-left: 3px solid yellowgreen;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .fermier{
+        border-left: 3px solid #842e1b;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .mal{
+        color:red;
+    }
+    .bien{
+        color:green;
+    }
+    q {
+        font-style: italic;
+        padding-left:30px;
+        font-size: 160%;
+        margin-top:80px;
+        margin-bottom: 80px;
+        background-color: #778899;
+        display:flex;
+        margin: 0px auto;
+        max-width:50%;
+    }
+    a{
+        font-size: 18px;
+    }
+    a:hover{
+        background-color: blueviolet;
+        color:white;
+    }

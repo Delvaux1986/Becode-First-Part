@@ -1,0 +1,51 @@
+@import "libs/mixin.scss";
+@import "libs/animation.scss";
+@import "card.scss";
+
+body{
+    @include flexbox;
+    flex-direction: column;
+    background-color: black;
+    p{
+        color:aqua;
+        display:flex;
+    }
+}
+
+
+.firstAnim{
+    @include Cadre;
+    @include flexbox;
+    &:hover{
+        background-color: white;
+        color:black;
+    }
+}
+.secondAnim{
+    @include Cadre;
+    @include flexbox;
+    transition: anim 1s ease-in;
+    &:hover{
+        background-color: white;
+        color:black;       
+    }
+}
+.thirdAnim{
+    @include Cadre;
+    @include flexbox;
+    &:hover{
+        animation : scaleUp 1s ease-in forwards;
+    }
+}
+.fourthAnim{
+    @include Cadre;
+    @include flexbox;
+    &:hover{
+        animation: moveRight 2s cubic-bezier(0.550, 0.055, 0.675, 0.190) both;
+    }
+}
+a{
+    text-decoration: none;
+    color :white;
+}
+

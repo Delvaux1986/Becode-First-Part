@@ -1,0 +1,154 @@
+body{
+    max-width: auto;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    color:white;
+    font-weight: bold;
+    background-color: RGB(51,51,51)	;
+    margin:0px auto;
+    height: 65px;
+}
+header .logo_header{
+    display:block;
+    padding:20px 100px;
+}
+.login img{
+    display:inline-block;
+    flex-direction: row;
+    align-content: center;
+    padding-top:25px;
+    margin-left:0px;
+}
+.login p{
+    display:inline-block;
+    flex-direction: row;
+}
+#menu_bot{
+    display:flex;
+    flex-direction: row;
+    align-content: left;
+}
+#menu_bot ul{
+    list-style: none;
+}
+#menu_bot ul li{
+    float:left;
+    padding-left: 10px;
+    border-right: 1px dashed white;
+    padding-right: 5px;
+}
+#menu_bot > p {
+    padding-left:700px;
+    color:white;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+}
+.nav ul{
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav ul li{
+    font-size: 18px;
+    flex-direction: row;
+    margin-left: 10px;
+    float: left;
+    
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+.main_div {
+    display:flex;
+    max-width: auto;
+    height:350px;
+    background-color: RGB(30,147,204);
+}
+.main_div p{
+    display: block;
+    align-content: inherit;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.photo_user{
+    display:flex;
+    padding: 50px 200px;
+}
+.main_div .build_button {
+    display:block;
+    justify-content: center;
+    padding-left:50px;
+
+}
+.second_div{
+    max-width:auto;
+    display:flex;
+    margin:0 auto;
+    height:60px;
+}
+.second_div p{
+    display:flex;
+    align-content: center;
+    font-size:20px;
+    font-weight:bold;
+    margin:0px auto;
+    padding-top:20px;
+}
+.third_div{
+    height:350px;
+    background-color: RGB(30,147,204);
+    display:flex;
+    padding-left:200px;
+    padding-top: 50px;
+}
+.third_div p ,h3{
+    display: flex;
+    color:white;
+    
+}
+.second_line{
+    padding-left:25px;
+}
+.logo_banner{
+    height:350px;
+    background-color: RGB(238,238,238);
+}
+.first_line_logo{
+    display:flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.logo_solo{
+    display:flex;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+.four_div{
+    height:350px;
+    display:flex;
+    justify-content: center;
+}
+.buttons{
+    padding-top:140px; 
+}
+footer{
+    display:block;
+    margin-bottom: 0em;
+    height: 67px;
+    background-color:RGB(34,34,34);
+}
+

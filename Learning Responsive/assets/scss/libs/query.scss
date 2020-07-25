@@ -1,0 +1,54 @@
+/* Screen between 0px at 300 px */
+@media only screen and (min-width:1px) and (max-width: 300px) {
+    body {
+      background-color: red;
+      display:flex;
+      flex-direction: column;
+    }
+  
+  #small , #medium , #bigger{
+    max-width: 100%;
+    background-color: aqua; 
+  }
+}
+    /* Screen between 300px at 768 px */
+  @media only screen and (min-width:300px) and (max-width:768px){
+    body {
+      background-color: green;
+      display:flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: left;
+    }
+  
+  #small {
+      flex-basis: 33.3333%;
+      max-width: 33.3333%;
+      background-color: blueviolet;
+      order:1;
+  }
+  #medium{
+      flex-basis: 66.6666%;
+      max-width: 66.6666%;
+      background-color: blueviolet;
+      order:2;
+  }
+  #bigger{
+    flex-basis: 100%;
+    max-width: 100%;
+    background-color: blueviolet;
+    order:3;
+  }
+}
+  /* Screen between 768px at max px */
+   @media only screen and (min-width: 768px) {
+    body {
+      background-color: blue;
+      display: flex;
+      flex-direction: row;
+    }
+    #small ,#medium ,#bigger{
+      max-width: (100/3)*1;
+      background-color: grey; 
+    }
+  }

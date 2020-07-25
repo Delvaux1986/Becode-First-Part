@@ -1,0 +1,12 @@
+body{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;   
+}

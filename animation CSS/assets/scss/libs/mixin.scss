@@ -1,0 +1,19 @@
+@mixin flexbox {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin Cadre{
+    display:flex;
+    padding-top: 1em;
+    height:10em;
+    width: 30em;
+    font-size: 18px;
+    align-content: center;
+    text-align: center;
+    background-color:black;
+    border: 2px solid white ;
+    border-radius: 10px;
+    color:white;
+    
+}

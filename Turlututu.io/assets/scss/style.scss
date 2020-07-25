@@ -1,0 +1,209 @@
+/* IMPORT */
+@import "libs/mixins.scss";
+@import "query.scss";
+
+/* Direction & display & justify */
+$flexDirectionRow :row;
+$displayFlex: flex;
+$center:center;
+$displayBlock:block;
+$marginauto: 0em auto;
+$inlineB:inline-block;
+$left:left;
+$none:none;
+$auto:auto;
+$bold:bold;
+
+/*Color*/
+
+$white:white;
+$grey:RGB(51,51,51);
+$blue:RGB(30,147,204);
+
+
+/*selecteur*/
+
+body{
+    max-width: $auto;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    a{
+        text-decoration: $none;
+        color:$white;
+    }
+}
+
+header {
+    @include flexcenter;
+    justify-content: space-around;
+    color:$white;
+    background-color: $grey;
+    margin:$marginauto;
+    height:4.0625em;
+    
+    .logo_header{
+        display:$displayBlock;
+        padding:1.25em 6.25em ;
+    }
+}
+
+footer{
+    display:$displayFlex;
+    margin-bottom: 0em;
+    height: 4.18em;
+    background-color:$grey;
+    p{
+        padding-left: 100vh;
+        color:$white;
+    }
+    img{
+            display:$displayFlex;
+            padding:0.2em 1em;
+        
+    }
+}
+/* Menus */
+.nav{
+    @include flexcenter;
+    ul{
+        list-style: $none;
+        flex-direction: $flexDirectionRow;
+        justify-content: $center;
+        li{
+            font-size: 18px;
+            flex-direction: $flexDirectionRow;
+            margin-left: 0.6em;
+            float:$left;
+            
+        }
+    }
+}
+
+
+.menu_bot {
+            display: $displayFlex;
+            flex-direction: $flexDirectionRow;
+            align-content: $left;
+            min-height: 3.1em;
+            ul{
+                list-style: none;
+                li{
+                    float:$left;
+                    padding-left: 0.6em;
+                }
+            }
+            .cop{
+                display:$displayBlock;
+                padding-left:38.5em ;
+                color:$white;
+            }
+}
+/* Autres Class */ 
+
+.login{
+    img{
+        display:$inlineB;
+        flex-direction: $flexDirectionRow;
+        align-content: $center;
+        padding-top: 1.56em;
+        margin-left: 0em;
+    }
+    p{
+        flex-direction: $flexDirectionRow;
+        display:$inlineB;
+    }
+}
+
+
+
+.main_div{
+    display:$displayFlex;
+    max-width: $auto;
+    height:(100/2.5)*1% ;
+    background-color: $blue;
+    p{
+        display:$displayBlock;
+        align-content: inherit;
+        color:$white;
+        font: {
+            size: 20px;
+            weight: $bold;
+        }
+        text-align: $center;
+        }
+    }
+
+.photo_user{
+    display:$displayFlex;
+    padding:3.1em 12.5em;
+}
+
+.build_button{
+    display:$displayBlock;
+    justify-content: $center;
+    padding-left: 3.125em;
+}
+
+.second_div{
+    max-width: $auto;
+    display: $displayFlex;
+    margin:$marginauto;
+    height:3.75em;
+    p{
+        display: $displayFlex;
+        align-content: $center;
+        font: {
+            size: 20px;
+            weight: $bold;
+        }
+        margin:$marginauto;
+        padding-top: 20px;
+    }
+}
+.third_div{
+    height:(100/2.2)*1%;
+    background-color: $blue;
+    display:$displayFlex;
+    padding-left: 12.5em;
+    padding-top: 3.125em;
+    h3{
+        display:$displayFlex;
+        color:$white;
+    }
+    p{
+        display:$displayFlex;
+        color:$white; 
+       
+    }
+}
+.second_line{
+    padding-left: 25px;
+
+}
+.logo_banner{
+    height:22em;
+    background-color: RGB(238,238,238);
+}
+.first_line_logo{
+    display:$displayFlex;
+    justify-content: $center;
+    padding-top:3.125em;
+}
+.logo_solo{
+    display:$displayFlex;
+    margin: $marginauto;
+    padding-top: 20px;
+}
+.four_div{
+    height:22em;
+    display:$displayFlex;
+    justify-content: $center;
+}
+.buttons{
+    padding-top:8.75em; 
+}
+
+
+/* ID */

@@ -1,0 +1,81 @@
+/* Screen between 0px at 300 px */
+@media only screen and (min-width: 1px) and (max-width: 300px) {
+  body {
+    background-color: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #small, #medium, #bigger {
+    max-width: 100%;
+    background-color: aqua;
+  }
+}
+
+/* Screen between 300px at 768 px */
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  body {
+    background-color: green;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: left;
+        align-content: left;
+  }
+  #small {
+    -ms-flex-preferred-size: 33.3333%;
+        flex-basis: 33.3333%;
+    max-width: 33.3333%;
+    background-color: blueviolet;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  #medium {
+    -ms-flex-preferred-size: 66.6666%;
+        flex-basis: 66.6666%;
+    max-width: 66.6666%;
+    background-color: blueviolet;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  #bigger {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    max-width: 100%;
+    background-color: blueviolet;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+}
+
+/* Screen between 768px at max px */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #small, #medium, #bigger {
+    max-width: 33.33333;
+    background-color: grey;
+  }
+}
+/*# sourceMappingURL=style.css.map */

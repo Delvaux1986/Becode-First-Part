@@ -1,0 +1,68 @@
+body{
+   
+    background-image: url(img/bg.jpg);
+    margin-top: auto;
+    display:flex;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    overflow: hidden;
+    perspective: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+#firstline{
+    color:blue;
+    max-width: 60%;
+    margin:0 auto;
+    display:inline-flex;
+}
+p{
+    color:yellow;
+    max-width: 60%;
+    margin: 0px auto;    
+}
+.textframe{
+    background-image: url(img/bg.jpg);
+    margin-top: auto;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width:40%;
+    height:400px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    text-align:center;    
+    transform: rotateX(30deg);
+    z-index: 1;
+    opacity:0;
+    animation:textframe 30s ease-in;
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+}
+.textframe img{
+    display:flex;
+    padding-left:220px;
+    transform: rotateX(30deg);
+    animation: starwars 30s ease-in;
+}
+.textframe p{
+    transform: rotateX(30deg);
+    animation: starwars 30s linear;
+}
+@keyframes affichage{
+    0%{opacity:1;}
+    50%{opacity:0.8}
+    90%{opacity: 0.3;}
+    100%{opacity:0;}
+
+}
+@keyframes starwars{
+    0%{transform:rotateX(30deg) translateY(400px);}
+    100%{transform:rotateX(30deg) translateY(-300px);}
+}
+@keyframes textframe{
+    0%{opacity:1;}
+    20%{opacity:0.8;}
+    70%{opacity:0.5;}
+    100%{opacity:0;}}

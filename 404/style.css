@@ -1,0 +1,157 @@
+/* BALISE HtML */
+body{
+    margin:0 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    height:15%;
+    display:flex;
+    width:100%;
+    justify-content: left;
+    background-color: grey;
+    position: sticky;
+    color:white;
+}
+header h2{
+    margin:0 auto;
+    padding-top:1%;
+    text-shadow: blue 1px 1px ;
+}
+footer{
+    background-color: grey;
+    height:15%;
+    display:flex;
+    margin-bottom: 0px;
+    color:white;
+    
+}
+footer p{
+    padding-left: 10px;
+}
+/* CLASS */
+.MAIN_DIV H1{
+    font-size: 100px;
+    display:flex;
+    margin: 0 0;
+}
+.MAIN_DIV p{
+    font-size: 26px;
+    font-weight: 800;
+    margin:0 0 ;
+    align-self: inherit;
+    
+}
+.MAIN_DIV{
+    background-image: url(img/fond.jpg);
+    background-position: bottom;
+    background-repeat: repeat;
+    height:700px;
+    width:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:rgb(17, 163, 182);
+    text-shadow:2px 2px white ;
+}
+.DIV_404{
+    padding-left: 100px;
+    align-items: center;
+}
+.DIV_404:hover{
+    animation:heartbeat 1.5s ease-in-out infinite both;
+    animation-iteration-count: infinite;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+
+}
+
+.button{
+    text-align: center;
+    justify-content: center;
+    padding-top:15px;
+    text-decoration: none;
+    color:black;
+    height:40px;
+    width:125px;
+    display:inline-block;
+}
+/* Mes ID */
+#___gcse_0{
+        display:flex;
+        padding-top:5vh;
+        border-radius: 10px;
+}
+/* Keyframe */
+@-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+        transform: scale(1);
+        transform: scale(1);
+        animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+  }
+  
