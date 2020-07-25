@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Star Wars Crawl
 
-You can use the [editor on GitHub](https://github.com/Delvaux1986/Star-wars-crawl/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Star Wars](/assets/yoda.gif)
 
-### Markdown
+#### Qu'est ce que c'est :
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Animation comme au début des film star wars 
 
-```markdown
-Syntax highlighted code block
+#### Quand ai-je travaillé dessus :
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+#### Ou j'en suis dans le projet :
 
-**Bold** and _Italic_ and `Code` text
+Le projet est terminé 
 
-[Link](url) and ![Image](src)
-```
+#### Qui suis je :
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+Je me nomme [Robby Delvaux](https://github.com/Delvaux1986) et je suis apprenant chez Becode promo Woods 3.21
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Delvaux1986/Star-wars-crawl/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+#### Qu'ai-je utilisé pour se projet :
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. MarkDown (readme)
+2. HTML (base de la page )
+3. CSS ( style de la page)
+
+![Becode](/assets/becode.png)
