@@ -1,6 +1,9 @@
 # Becode-First-Part
 
+<<<<<<< HEAD
 ![Becode]("assets/img/becode.png")
+=======
+
 
 
 ## Qu'est ce que c'est 
