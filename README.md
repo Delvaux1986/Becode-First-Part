@@ -1,6 +1,6 @@
 # Becode-First-Part
 
-[Becode]("/assets/img/becode.png")
+![Becode]("assets/img/becode.png")
 
 
 ## Qu'est ce que c'est 
