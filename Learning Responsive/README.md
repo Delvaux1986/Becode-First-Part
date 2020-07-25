@@ -1,7 +1,7 @@
 # learning-Responsive
 
 
-![Responsive](/ChallengeResponsive/images/responsive.gif)
+![Responsive](/assets/responsive.gif)
 
 #### Qu'est ce que c'est :
 
