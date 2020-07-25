@@ -1,8 +1,8 @@
 # Becode-First-Part
 
-<<<<<<< HEAD
-![Becode]("assets/img/becode.png")
-=======
+
+![Becode]("assets/becode.png")
+
 
 
 
