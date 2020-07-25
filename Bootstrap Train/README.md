@@ -1,6 +1,6 @@
 # Bootstrap training
 
-![Bootstrap](assets/bootstrap.png)
+![Bootstrap](https://miro.medium.com/max/256/1*6fzxZyDPD_8RRsmHpQr-vw.gif)
 
 ### Qu'est ce que c'est :
 
@@ -30,4 +30,4 @@ Je m'apelle [Robby Delvaux](https://github.com/Delvaux1986) . apprenant a Becode
 4. **Bootstrap**
 
 
-![The gif](assets/gif.gif)
+![The Gif](/assets/gif.gif)
